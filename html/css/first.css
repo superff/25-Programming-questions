@@ -1,0 +1,89 @@
+h1{
+	margin-bottom:0;
+}
+
+#container{
+width:100%
+}
+
+#header{
+width:100%;
+height:80px;
+background-color:#CAF700;
+}
+
+#languages_block_top {position:absolute;right:0px;top:0px; border-left:1px solid #464646;}
+#languages_block_top ul li {float:left; border-right:1px solid #464646;}
+#languages_block_top ul li:first-child a{ width}
+#languages_block_top ul li a {width:34px;height:47px;display:block;background:none;font:14px/44px "Arial";color:#888787;text-decoration:none;text-align:center;text-transform:capitalize;}
+#languages_block_top ul li a:hover {color:#00ffff;}
+#languages_block_top ul li.selected_language {width:34px;height:47px;display:block;background:none;font:14px/44px "Arial";color:#00ffff;text-decoration:none;text-align:center;text-transform:capitalize;}
+
+
+
+
+#header #currencies_block_top {float:left;color:#656565;font-size:13px;line-height:15px;position:absolute;right:117px;top:0px;z-index:1000;text-align:left; background:url(../img/cur-line.gif) no-repeat 0 0; padding:14px 0 5px 10px;}
+.jqTransformHidden{display:none!important;}
+#header #currencies_block_top label{display:block;float:left;padding:1px 13px 0 0; font-size:14px; line-height:14px; color:#888787;}
+#header #currencies_block_top .jqTransformSelectWrapper{background:url(../img/cur-arrow.gif) no-repeat right 0px;border:none;float:left;width:110px!important;padding: 0 0 0 0;cursor:default;}
+#header #currencies_block_top .jqTransformSelectWrapper div{height:27px!important;overflow:hidden;}
+#header #currencies_block_top .jqTransformSelectWrapper div span{font-size:14px; line-height:14px; color:#888787;padding:1px 27px 0 12px;width:75px!important;height:27px!important;overflow:hidden;float:left; cursor:pointer;}
+#header #currencies_block_top ul{padding:0px 0 0 0;margin:1px 0 0 0px;width:108px!important;height:60px!important;overflow:hidden;background:#313132;}
+#header #currencies_block_top ul li{line-height:11px;padding:2px 12px;overflow:hidden;width:94px!important; }
+#header #currencies_block_top ul li a{color:#888787;font-size:14px;line-height:14px;text-decoration:none;display:block;}
+#header #currencies_block_top ul li a:hover{color:#00ffff;}
+
+
+
+
+
+#tmheaderlinks {position:absolute;left:-30px;top:-9px;}
+#tmheaderlinks li:first-child a{ border-left:0px solid #464647; padding:12px 10px 16px 11px;}
+#tmheaderlinks li {float:left; border-right:1px solid #464647;}
+#tmheaderlinks li a {color:#888787; font-size:14px; line-height:40px; text-decoration:none;text-transform:capitalize; padding:12px 9px 16px 10px; display:block;}
+
+#tmheaderlinks li a:hover,
+#tmheaderlinks li a.active { color:#00ffff; background:#c0c0c0; border-color:#c0c0c0;}
+
+#menu{
+background-color:#FFD700;
+height:60%;width:25%;
+float:left;
+}
+#content1{
+background-color:#CAF700;
+height:20%;
+width:75%;
+float:left;
+}
+#content2{
+background-color:#cc33cc;
+height:20%;
+width:25%;
+float:left;
+}
+
+#content3{
+background-color:#cccc00;
+height:20%;
+width:25%;
+float:left;
+}
+#content4{
+background-color:#ff3333;
+height:20%;
+width:25%;
+float:left;
+}
+#content5{
+background-color:#9966ff;
+height:20%;
+width:75%;
+float:left;
+}
+#footer{
+background-color:#ff3300;
+height:20%;
+clear:both;
+text-align:center;
+}
